@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Odev</title>
+	<style type="text/css">
+		nav>ul{
+			background-color: black;
+			padding: 20px;
+		}
+		nav>ul>li{
+			display: inline;
+		}
+		nav>ul>li>a{
+			color: white;
+			text-decoration: none;
+			margin-right: 30px;
+		}
+		nav>ul>li>a:hover {
+			color: red;
+		}
+		.div1{
+			border: 2px solid black;
+			max-width: 960px;
+			height: 600px;
+			padding: 20px;
+			overflow: hidden;
+			margin: auto;
+		}
+		#left{
+			border: 1px solid gray;
+			width: 600px;
+			height: 400;
+			float: left;
+			overflow: auto;
+			margin-right: 50px;
+		}
+
+		#right{
+			border: 1px solid gray;
+			width: 200px;
+			height: 400;
+			float: left;
+			overflow: auto;
+			margin-left: 30px;
+		}
+	</style>
+</head>
+<body>
+	
+	<nav>
+		<ul>
+			<li><a href=""> Anasayfa</a></li>
+			<li><a href=""> Hakkımızda</a></li>
+			<li><a href=""> İçindekiler</a></li>
+		</ul>
+	</nav>
+
+	<div class="div1">
+		<div id="left">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<img src="hacker.jpg" width="600px">
+		</div>
+
+		<div id="right">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			
+		</div>
+	</div>
+	
+
+</body>
+</html>
