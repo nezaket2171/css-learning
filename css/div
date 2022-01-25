@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deneme</title>
+	<style type="text/css">
+		.div1{
+			background-color: gray;
+			max-width: 1000px;
+			height: 500px;
+		}
+		.div2{
+			background-color: black;
+			width: 100px;
+			height: 100px;
+			color: white;
+			text-align: center;
+			box-shadow: 5px 10px rgb(189, 189, 189);
+			margin: 100px;
+			float: left;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="div1">
+		<div class="div2"><p>Ortalanmış Yazı</p></div>
+		<div class="div2"><p>Ortalanmış Yazı</p></div>
+		<div class="div2"><p>Ortalanmış Yazı</p></div>
+		
+	</div>
+
+</body>
+</html>
